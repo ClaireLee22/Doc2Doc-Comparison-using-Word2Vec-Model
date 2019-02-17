@@ -13,13 +13,16 @@ Identify the similarity among two thousands of documents based on the Word2Vec s
   - Remove non-English words
   - Remove stopwords
   - Tokenization
+  
   (Data_preparion1.py) 
   (Data_preparion2.py)
 - Build Word2Vec model
 - Train the  model
 - Doc2Doc comparison
+
   (Doc2Doc_comparison.py)
 - Verify results by exact word match count
+
   (match_word_count.py)
 ### Project Results
 - Word2Vec Visualization
