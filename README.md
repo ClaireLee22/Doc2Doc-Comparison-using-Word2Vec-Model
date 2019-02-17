@@ -50,4 +50,4 @@ python Doc2Doc_comparison.py
 
 ### Data
 
-4000 healthcare related documents are using a private dataset
+40000 healthcare related documents are using a private dataset
