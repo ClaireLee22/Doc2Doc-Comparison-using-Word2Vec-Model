@@ -42,7 +42,7 @@ Identify the similarity among two thousands of documents based on the Word2Vec s
  
  - word_match_count output (verify Word2Vec model accuracy)
  
-  <img src='assets/word_count_matcg_output.png' height='20px'>
+  <img src='assets/word_count_matcg_output.png' height='100px'>
 
 
 ## Getting Started
