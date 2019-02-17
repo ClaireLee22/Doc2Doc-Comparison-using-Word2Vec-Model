@@ -37,6 +37,9 @@ This project requires **Python 3.6** and the following Python libraries installe
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [tensorflow](https://www.tensorflow.org/install/pip)
 
+(Optional) If you are using AWS, use python 3.6 on AWS EC2 instance p2.xlarge which has tensorflow and GPU support.
+- It has 4 vCPUs with 61GB RAM. We recommend machines of at least this configuration to run our program in reasonable time - for 2000 documents and top 500 words in each document the run took ~4 hours.
+
 ### Run
 
 In a terminal or command window, run one of the following commands:
