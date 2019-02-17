@@ -1,43 +1,48 @@
 # Doc2Doc-Comparison-using-Word2Vec-Model
 Deep Learning Project [UCSC Silicon Valley Extension: Deep Learning and Artificial Intelligence with TensorFlow]
+- Cowork with Santosh Honnavalli
 
 ## Project Overview
 ### Project Description
-Evaluate 10 supervised learning algorithms that are currently available in scikit-learn on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. 
+Identify the similarity among two thousands of documents based on the Word2Vec skip-gram model.
 
 ### Project Procedure
-- Explore the data
+- Prepare the data
+  - Collect 40000 documents
 - Preprocesse the data
-- Evaluate performance of several supervised learning algorithms
-- Choose the best model
-- Tune model parameters using grid search
-- Evaluate feature importance to optimize the model's performance
-
+  - Remove non-English words
+  - Remove stopwords
+  - Tokenization
+  (Data_preparion1.py) 
+  (Data_preparion2.py)
+- Build Word2Vec model
+- Train the  model
+- Doc2Doc comparison
+  (Doc2Doc_comparison.py)
+- Verify results by exact word match count
+  (match_word_count.py)
 ### Project Results
+- Word2Vec Visualization
+- Loss graph
+- Comparison output(show 5 documents as an example)
+- word_match_count output (verify Word2Vec model accuracy)
 
 ## Getting Started
 ### Prerequisites
-This project requires **Python 2.7** and the following Python libraries installed:
+
+This project requires **Python 3.6** and the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+- [tensorflow](https://www.tensorflow.org/install/pip)
 
 ### Run
 
 In a terminal or command window, run one of the following commands:
 
 ```bash
-ipython notebook finding_donors.ipynb
+python Doc2Doc_comparison.py
 ```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
-```
-
-This will open the iPython Notebook software and project file in your browser.
 
 ### Data
