@@ -28,21 +28,18 @@ Identify the similarity among two thousands of documents based on the Word2Vec s
 - Trained the Word2Vec (Skip-gram) model by collecting vocabularies from 40000 documents and compared similarity among 2000 documents successfully based on output of word_match_count validation.
 - Obtained the similarity of words by Word2Vec model and further compare all the words in a document to another document to decide the Doc2Doc similarity by adding similarity of “most similar” words together. 
 - Got all the similarity value among all documents. The higher value of similarity, the more similar the two documents are. 
-- Word2Vec Visualization
-
- <img src='assets/embeddings_output.png'>
+- Project Output
+  - Word2Vec Visualization
+   <img src='assets/embeddings_output.png'>
  
-- Loss graph
-
- <img src='assets/loss_graph.png'>
+  - Loss graph
+   <img src='assets/loss_graph.png'>
  
-- Comparison output
-
- <img src='assets/top10_output.png'>
+  - Comparison output
+   <img src='assets/top10_output.png'>
  
- - word_match_count output (verify Word2Vec model accuracy)
- 
-  <img src='assets/word_count_matcg_output.png' height='800px'>
+   - word_match_count output (verify Word2Vec model accuracy)
+   <img src='assets/word_count_matcg_output.png' height='800px'>
 
 
 ## Getting Started
