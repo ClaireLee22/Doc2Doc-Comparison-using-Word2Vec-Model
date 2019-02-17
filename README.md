@@ -23,11 +23,14 @@ Identify the similarity among two thousands of documents based on the Word2Vec s
   (match_word_count.py)
 ### Project Results
 - Word2Vec Visualization
- <img src='assets/embeddings_output.png>
+
+ <img src='assets/embeddings_output.png'>
 - Loss graph
- <img src='assets/loss_graph.png>
+
+ <img src='assets/loss_graph.png'>
 - Comparison output
- <img src='assets/top10_output.png>
+
+ <img src='assets/top10_output.png'>
 
 
 ## Getting Started
