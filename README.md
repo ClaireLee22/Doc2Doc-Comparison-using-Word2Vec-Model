@@ -34,6 +34,9 @@ Identify the similarity among two thousands of documents based on the Word2Vec s
 - Comparison output
 
  <img src='assets/top10_output.png'>
+ - word_match_count output (verify Word2Vec model accuracy)
+ 
+  <img src='assets/word_count_matcg_output.png'>
 
 
 ## Getting Started
